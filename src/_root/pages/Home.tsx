@@ -9,7 +9,7 @@ const Home = () => {
           <h2 className="text-5xl font-semibold text-[#163020] mt-[30px]">Explore the world of millets sustainably.</h2>
         </div>
         <div className="">
-          <img src="/public/assets/homepage/homepage.png" alt="" className="h-[480px]"/>
+          <img src="/dist/assets/homepage/homepage.png" alt="" className="h-[480px]"/>
         </div>
       </div>
     </>

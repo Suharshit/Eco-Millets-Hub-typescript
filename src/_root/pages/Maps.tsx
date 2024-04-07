@@ -13,7 +13,7 @@ const Maps = () => {
       </div>
       <div className="flex items-center gap-x-60 py-10">
         <div>
-          <img src="/public/assets/maps/indian-map-millets-production.png" alt="" className="h-[40rem]"/>
+          <img src="/dist/assets/maps/indian-map-millets-production.png" alt="" className="h-[40rem]"/>
         </div>
         <div className="h-[450px] w-[400px] py-10">
           <Doughnut data={{

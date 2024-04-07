@@ -19,7 +19,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/sogrum-millets(jowar).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/sogrum-millets(jowar).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[80px] font-bold">Sorghum Millet (Jowar)</h1>
                                     </div>
                                     <div>
@@ -47,7 +47,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/Pearl-millet(Bajra).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/Pearl-millet(Bajra).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[105px] font-bold">Pearl Millet (Bajra)</h1>
                                     </div>
                                     <div>
@@ -75,7 +75,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/Foxtail-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/Foxtail-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[95px] font-bold">Foxtail Millet (Kangni)</h1>
                                     </div>
                                     <div>
@@ -103,7 +103,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/Finger-millet(ragi).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/Finger-millet(ragi).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[100px] font-bold">Finger Millet (Ragi)</h1>
                                     </div>
                                     <div>
@@ -131,7 +131,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/fonio-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/fonio-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[140px] font-bold">Fonio Millet</h1>
                                     </div>
                                     <div>
@@ -159,7 +159,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/barnyard-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/barnyard-millet.jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[130px] font-bold">Barnyard Millet</h1>
                                     </div>
                                     <div>
@@ -187,7 +187,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/little-millets(kutki).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/little-millets(kutki).jpg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[100px] font-bold">Little Millet (Kutki)</h1>
                                     </div>
                                     <div>
@@ -215,7 +215,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/buckwheat-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/buckwheat-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[80px] font-bold">Buckwheat Millet (Kuttu)</h1>
                                     </div>
                                     <div>
@@ -243,7 +243,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/amaranth-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/amaranth-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[80px] font-bold">Amarnath Millet (Rajgira)</h1>
                                     </div>
                                     <div>
@@ -271,7 +271,7 @@ const InfoCard = () => {
                             <CardContent className="flex justify-center border-2 pt-4 border-zinc-800 rounded-lg">
                                 <div className="space-y-2">
                                     <div>
-                                        <img src="/public/assets/millets/kodo-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
+                                        <img src="/dist/assets/millets/kodo-millet.jpeg" alt="bajra" className="h-[350px] rounded-lg w-[405px]"/>
                                         <h1 className="text-xl pl-[140px] font-bold">Kodo Millet</h1>
                                     </div>
                                     <div>
