@@ -43,7 +43,7 @@ const SigninForm = () => {
             <div className="flex flex-col pt-2 mt-3">
               <input type="password" name="password" onChange={(e) => setPassword(e.target.value)} className="bg-[#9EC8B9] text-[#092635] rounded  placeholder-[#1B4242] pl-[6px] pt-[10px] pb-[10px]"  placeholder="Password"/>
             </div>
-            <button type="submit" className="h-[40px] w-[350px] pt-[10px] pb-10 bg-[#092635] mt-5 rounded text-[#9EC8B9] font-bold text-lg cursor-pointer max-xl:w-[350px] max-sm:w-[280px]">Submit</button>
+            <button type="submit" className="h-[40px] w-[350px] pt-[10px] pb-10 bg-[#1B4242] mt-5 rounded text-[#9EC8B9] font-bold text-lg cursor-pointer max-xl:w-[350px] max-sm:w-[280px]">Submit</button>
           </form>
           <h2 className="mt-5 text-center text-text">Already have an account? <Link to='/login' className="text-heading font-extrabold underline">Login</Link></h2>
         </div>

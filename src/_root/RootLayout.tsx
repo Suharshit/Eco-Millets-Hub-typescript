@@ -20,14 +20,14 @@ const RootLayout = () => {
       <>
         { isAuthenticated ? (
           <section>
-            <div className="bg-[url('/public/assets/homepage/chewebsite-bg.png')] h-screen bg-cover bg-no-repeat">
+            {/* <div className="bg-[url('/public/assets/homepage/chewebsite-bg.png')] h-screen bg-cover bg-no-repeat"> */}
               <div className="justify-between">
                 <NavBar/>
               </div>
-              <div className=""> 
+              <div className="px-8"> 
                 <Outlet/>
               </div>
-            </div>
+            {/* </div> */}
           </section>
         ) : (
           <Navigate to='/login'/>
