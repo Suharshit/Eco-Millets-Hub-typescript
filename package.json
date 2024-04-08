@@ -2,7 +2,7 @@
   "name": "eco-millet-hub",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://eco-millets-hub.com/",
+  "homepage": "https://eco-millets-hub.com/",
   "type": "module",
   "scripts": {
     "dev": "vite",
