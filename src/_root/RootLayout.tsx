@@ -24,7 +24,7 @@ const RootLayout = () => {
               <div className="justify-between">
                 <NavBar/>
               </div>
-              <div className="px-8"> 
+              <div className="px-5"> 
                 <Outlet/>
               </div>
             {/* </div> */}

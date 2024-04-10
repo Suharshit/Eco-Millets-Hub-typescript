@@ -6,7 +6,10 @@ import RootLayout from './_root/RootLayout'
 import { Home } from './_root/pages'
 import Maps from './_root/pages/Maps'
 import Production from './_root/pages/Production'
-import AboutUs from './_root/pages/AboutUs'
+import ContactUs from './_root/pages/ContactUs'
+import Help from './_root/pages/Help'
+import Services from './_root/pages/Services'
+import Refrences from './_root/pages/Refrences'
 
 function App() {
 
@@ -22,7 +25,10 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='/maps' element={<Maps/>}/>
           <Route path='/production' element={<Production/>}/>
-          <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/contactus' element={<ContactUs/>}/>
+          <Route path='/help' element={<Help/>}/>
+          <Route path='/services' element={<Services/>}/>
+          <Route path='/refrences' element={<Refrences/>}/>
         </Route>
       </Routes>
     </>

@@ -1,34 +1,23 @@
-// import { createContext, useState } from 'react';
-// import authservice from '../appwrite/auth';
+import { createContext, useState, useContext } from 'react';
+import authservice from '../appwrite/auth';
 
-// // const INITIAL_STATE = {
-// //   setIsAuthenticated: () => {},
-// //   checkAuthUser: async () => false as boolean,
-// // };
+const AuthContext = createContext(null);
 
-// export interface AuthContextProps {
-//     value: boolean;
-//     setValue: (newValue: boolean) => void;
-//   }
+export const AuthProvider = () => {
+    const [authUser, setAuthUser] = useState(null)
+    const [isLoggedIn, setIsLoggedIn] = useState(null)
+    const [isLoading, setISLoading] = useState(null)
 
-// export const AuthContext = createContext<AuthContextProps>({
-//     value: false,
-//     setValue: () => {},
-//   });
+    const value = {
+        authUser,
+        setAuthUser,
+        isLoading,
+        setISLoading,
+        isLoggedIn,
+        setIsLoggedIn
+    }
 
-// export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-//   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
-
-//   const checkAuthUser = async() => {
-//     try {
-//       const currentAccount = await authservice.getCurrentUser();
-//       if(currentAccount){
-//         setIsAuthenticated(!isAuthenticated);
-//         return true;
-//       }
-//     } catch (error) {
-//       console.error(error);
-//     }
-//     return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
-//   }
-// }
+    return(
+        <AuthContext.Provider value={value}></AuthContext.Provider>
+    )
+}

@@ -17,7 +17,6 @@ const NavbarToggle = () => {
                 <DropdownMenuItem><Link to='/'>Home</Link></DropdownMenuItem>
                 <DropdownMenuItem><Link to='/maps'>Maps</Link></DropdownMenuItem>
                 <DropdownMenuItem><Link to='/production'>Production</Link></DropdownMenuItem>
-                <DropdownMenuItem><Link to='/aboutus'>About Us</Link></DropdownMenuItem>
                 <DropdownMenuItem className="bg-[#092635] text-[#9EC8B9] onhover:bg-[#9EC8B9] onhover:text-[#092635] justify-center"><Link to='/login'>Login</Link></DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
