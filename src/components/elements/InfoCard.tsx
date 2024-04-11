@@ -8,7 +8,7 @@ const InfoCard = () => {
     <>
         <div className="w-auto mx-5 my-3">
             <div>
-                <h1 className="text-4xl mb-14 pt-10 font-bold text-[#163020]">Different types of Millets.</h1>
+                <h1 className="text-4xl mb-6 pt-10 font-bold text-[#163020]">Different types of Millets.</h1>
             </div>
             <Carousel className="w-full">
                 <CarouselContent className="-ml-1">
