@@ -19,7 +19,7 @@ const ProductionVideo = () => {
                 {/* card 2 */}
                 <div className="flex mt-10 gap-x-56 px-28">
                     <div className="space-y-2 w-[480px]">
-                        <h1 className="text-2xl font-bold">10 DIFFERENT TYPES OF MILLETS GROWN IN INDIA | MILLET VARIETIES</h1>
+                        <h1 className="text-2xl font-bold ">10 DIFFERENT TYPES OF MILLETS GROWN IN INDIA | MILLET VARIETIES</h1>
                         <h3 className="text-lg font-mono">source: <a href="https://www.youtube.com/@AgricultureandTechnology" className="text-[#FF9800] font-semibold underline">Agriculture and Technology</a></h3>
                         <p className="w-[480px]">This video is about the ten different types of millets grown in India. Millets are a type of grain that is known to be high in nutrients and relatively low in cost. The video may discuss the different varieties of millets, their characteristics, and their potential benefits. However, since the caption only contains one word, it is impossible to summarize the video in detail.</p>
                     </div>
@@ -41,7 +41,7 @@ const ProductionVideo = () => {
                         <h3 className="text-lg font-mono">source: <a href="https://www.youtube.com/@JustDoSomethingHomestead" className="text-[#FF9800] font-semibold underline">Just Do Something Homestead</a></h3>
                         <p className="w-[480px]">This video is about growing Millet on your homestead. The speaker, Deb from Just Do Something Homestead, explains the benefits of growing Millet and how to grow it yourself. <br /> Millet is a grass and a grain that is high in protein and fiber. It is used to feed both livestock and humans. The speaker grows proso Millet in West Virginia, which only grows about three feet tall and matures in about two months. Millet is easy to grow even in drought areas.</p>
                     </div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l04-m8y7tHo?si=CyoOR_lHkGsf-ShM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-xl border-4 border-[#B6C4B6]"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l04-m8y7tHo?si=CyoOR_lHkGsf-ShM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-xl border-4 border-[#B6C4B6] max-sm:h-[300px] max-sm:w-full"></iframe>
                 </div>
                 {/* card 5 */}
                 <div className="flex mt-10 gap-x-56 px-28">

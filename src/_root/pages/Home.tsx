@@ -11,8 +11,8 @@ const Home = () => {
           <div className="bg-[url('/public/assets/homepage/website-bg.png')] bg-no-repeat bg-cover h-[600px] rounded-lg">
             <div className="items-center px-6 mt-3">
               <div className="w-1/2 pt-5">
-                <h1 className="text-8xl font-bold font-poppins mt-[20px] text-[#EEF0E5]">Measure your millet munching!</h1>
-                <h2 className="text-5xl font-semibold text-[#EEF0E5] mt-[30px] mb-8">Calculate your carbon footprint for millets with our new tool.
+                <h1 className="text-8xl max-md:text-7xl max-sm:text-6xl font-bold font-poppins mt-[20px] text-[#EEF0E5]">Measure your millet munching!</h1>
+                <h2 className="text-5xl max-sm:text-2xl font-semibold text-[#EEF0E5] mt-[30px] mb-8 max-md:text-3xl">Calculate your carbon footprint for millets with our new tool.
                 </h2>
                 <Link to="/production" className="px-8 py-3 rounded-lg bg-[#EEF0E5]">Calculator</Link>
               </div>
