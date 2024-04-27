@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <h2 className="flex w-full justify-center">Copyright©️2023-25. All Right Reserved</h2>
-            <h2 className="flex w-full justify-center text-[#B6C4B6]">Created by Team Eco Millets Hub</h2>
+            <h2 className="flex w-full justify-center text-[#B6C4B6]"><a href="https://suharshitsingh-portfolio.vercel.app" target="_blank">Created by Suharshit Singh</a></h2>
         </div>
     </>
   )
